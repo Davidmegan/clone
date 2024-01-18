@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    width: 100vw;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    gap: 10px;
+    min-height: 6vh;
+    margin-top: 8px;
+    /* float: right; */
+    /* margin-right: 10px; */
+    /* text-decoration: none; */
+}
+
+.header > * {
+    text-decoration: none;
+    /* text-align: center; */
+    padding-top: 4px;
+    color: black;
+}
+
+.header span{
+    margin-left: 4px;
+}
+
+.header a:hover{
+    text-decoration: underline;
+}
+
+#sign-in{
+    color: white;
+    background-color: blue;
+    padding: 8px 25px 8px 25px;
+    border-radius: 5px;
+    margin: 0px 8px 0px 8px;
+}
+
+#sign-in:hover {
+    opacity: 50%;
+    text-decoration: none;
+}
+
+.mainbody {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+}
+
+.mainbody img{
+    object-fit: contain;
+    max-height: 100px;
+}
+
+.search{
+    display: flex;
+    gap: 5px;
+    border: 1px solid lightgrey;
+    height: 30px;
+    border-radius: 25px;
+    width: 70vw;
+    padding: 10px 20px;
+    margin: 20px auto;
+}
+
+.mainbody input{
+    flex: 1;
+    padding: 0px 10px;
+    border: none;
+    outline: none;
+}
+
+.btns{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+}
+
+.btns button{
+    padding: 10px 10px;
+    background-color: #f8f8f8;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.material-symbols-outlined{
+    color: gray;
+}
